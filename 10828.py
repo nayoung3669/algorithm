@@ -1,8 +1,10 @@
-n = int(input())
+import sys
 
+n = int(sys.stdin.readline())
 stack = []
+
 for i in range(n):
-    command=input().split()
+    command = sys.stdin.readline().split()
 
     if command[0] == 'push':
         stack.append(command[1])
@@ -26,5 +28,5 @@ for i in range(n):
         if len(stack):
             print(0)
         else:
-            print(-1)
+            print(1)
     
