@@ -12,25 +12,6 @@ print(answer)
 
 
 # O(nlogn)
-
-
-'''
-이렇게도 푸네요 ㄷㄷ
-n = int(input())
-a = list(map(int, input().split()))
-a_max = max(a)
-a_min = min(a)
-print(a_max * a_min)
-'''
-
-
-
-# 그저 goat, 빛
-
-
-#천재다 ㄷㄷ....
-# a = [1,2,4] => [2]
-
 # len(a)//2
 # 홀수 -> index(n) 가운데거 ^ 2
 # 짝수 -> sort 해서 맨앞, 맨 뒤 곱하기
